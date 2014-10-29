@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cP1-l1-HVy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="sir-mg-aYi">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="cP1-l1-HVy" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="fRu-yg-t5X"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ALF-Ls-dg6">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5j0-Sz-Rig">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="j2T-Nf-heZ" kind="relationship" relationship="rootViewController" id="DWe-KK-Pl6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sz6-47-etm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1488" y="-3598"/>
+        </scene>
+        <!--First Visit View Controller-->
+        <scene sceneID="OwI-IA-7HD">
+            <objects>
+                <viewController id="j2T-Nf-heZ" customClass="ROFirstVisitViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qGj-DO-Nzl"/>
+                        <viewControllerLayoutGuide type="bottom" id="KdS-Sx-gKa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oMe-NO-F29">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdH-J3-F8t">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtP-yd-zlr">
+                                <rect key="frame" x="74" y="500" width="171" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="AvW-Dt-xf8"/>
+                                </constraints>
+                                <state key="normal" title="完成" image="start.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5y3-fb-mgh" kind="push" identifier="switchToMyFund" id="A8q-qg-g6G"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dtP-yd-zlr" secondAttribute="trailing" constant="75" id="SI8-wi-GMl"/>
+                            <constraint firstItem="dtP-yd-zlr" firstAttribute="leading" secondItem="oMe-NO-F29" secondAttribute="leading" constant="74" id="nDK-bb-YWS"/>
+                            <constraint firstItem="KdS-Sx-gKa" firstAttribute="top" secondItem="dtP-yd-zlr" secondAttribute="bottom" constant="24" id="xQf-xC-QZT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="O0U-VH-3Nu"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btnStart" destination="dtP-yd-zlr" id="vqn-rt-SgB"/>
+                        <outlet property="scrollView" destination="GdH-J3-F8t" id="T5E-ll-Lr1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UwY-a7-eK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1031" y="-3598"/>
+        </scene>
+        <!--支付宝－余额宝-->
+        <scene sceneID="W1q-uN-rDe">
+            <objects>
+                <viewController restorationIdentifier="MyFundView" id="5y3-fb-mgh" customClass="ROMyFundViewController" propertyAccessControl="none" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VLJ-lw-A7Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="efc-an-ySn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Vo-Fe-yoS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MyFundView" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="JT5-di-4g0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="price_cell" rowHeight="128" id="zHB-nW-nLd" customClass="ROFundTablePriceCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zHB-nW-nLd" id="pBf-gz-YZm">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="989.78" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.15000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="WrS-gq-HaC">
+                                                    <rect key="frame" x="8" y="38" width="280" height="77"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="70"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mt.Gox" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999403953552" translatesAutoresizingMaskIntoConstraints="NO" id="1ka-Us-PxW">
+                                                    <rect key="frame" x="8" y="10" width="127" height="27"/>
+                                                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="USD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKg-e6-FYT">
+                                                    <rect key="frame" x="89" y="10" width="69" height="27"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.37093444462234859" blue="0.39673878604026513" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="currencyLabel" destination="nKg-e6-FYT" id="KpG-2r-LgV"/>
+                                            <outlet property="priceLabel" destination="WrS-gq-HaC" id="dsL-MC-CtC"/>
+                                            <outlet property="sourceNameLabel" destination="1ka-Us-PxW" id="Zrz-SJ-mcx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="alert_cell" rowHeight="168" id="YUI-2V-gd5" customClass="ROSetFundControlCell">
+                                        <rect key="frame" x="0.0" y="150" width="320" height="168"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YUI-2V-gd5" id="EAX-ai-Uj4">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="167"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="嗯嗯，小宝可以帮你自动算收益" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdU-Mz-fEj">
+                                                    <rect key="frame" x="29" y="18" width="291" height="31"/>
+                                                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reset.png" translatesAutoresizingMaskIntoConstraints="NO" id="en3-7L-cHj">
+                                                    <rect key="frame" x="10" y="26" width="16" height="16"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHE-YL-B6P">
+                                                    <rect key="frame" x="25" y="68" width="271" height="45"/>
+                                                    <color key="backgroundColor" red="0.17893477910563796" green="0.51501518231239307" blue="0.87340561224489799" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="18"/>
+                                                    <state key="normal" title="点我开始记账">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                        <connections>
+                                            <outlet property="btnSetMyFund" destination="dHE-YL-B6P" id="nX9-5Z-Rbi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="5y3-fb-mgh" id="JbL-dc-skU"/>
+                                    <outlet property="delegate" destination="5y3-fb-mgh" id="5bS-ul-3TJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="efc-an-ySn" firstAttribute="top" secondItem="JT5-di-4g0" secondAttribute="bottom" id="AIG-vE-eR3"/>
+                            <constraint firstItem="JT5-di-4g0" firstAttribute="leading" secondItem="9Vo-Fe-yoS" secondAttribute="leading" id="BsB-WF-IZe"/>
+                            <constraint firstAttribute="trailing" secondItem="JT5-di-4g0" secondAttribute="trailing" id="SCy-yg-3XD"/>
+                            <constraint firstAttribute="bottom" secondItem="JT5-di-4g0" secondAttribute="bottom" id="Wmw-pk-Pue"/>
+                            <constraint firstItem="JT5-di-4g0" firstAttribute="top" secondItem="9Vo-Fe-yoS" secondAttribute="top" id="mts-b4-2VQ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" title="支付宝－余额宝" id="mvs-UN-9wy"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="JT5-di-4g0" id="q5h-5H-K3k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dP0-ch-Nuu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-597" y="-3598"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="reset.png" width="32" height="32"/>
+        <image name="start.png" width="307" height="81"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
