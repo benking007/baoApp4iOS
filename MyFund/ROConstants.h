@@ -17,6 +17,7 @@ typedef enum
 
 #define kSettingsQuotient       @"kSettingsQuotient"
 #define kSettingsTotalIncome    @"kSettingsTotalIncome"
+#define kSettingChipinCoin      @"kSettingChipinCoin"
 
 #define kAPI_GETMYFUND          @"http://114.215.130.200/myfunds/getmyfund?v=1.0"
 #define kAPI_SETMYFUND          @"http://114.215.130.200/myfunds/setmyfund?v=1.0"

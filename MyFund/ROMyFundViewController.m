@@ -73,6 +73,8 @@
     [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateAll) userInfo:nil repeats:NO];
 }
 
+
+
 -(void)updateAll{
     [[self tableView] reloadData];
 }
@@ -537,6 +539,10 @@
     //}
     //UIAlertView *shareAlert = [[UIAlertView alloc] initWithTitle:@"发送失败" message:failDescription delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
    // [shareAlert show];
+}
+
+- (IBAction)showGameIndex1:(id)sender {
+    [self performSegueWithIdentifier:@"game_index" sender:self];
 }
 
 @end

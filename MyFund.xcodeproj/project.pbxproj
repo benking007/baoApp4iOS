@@ -25,6 +25,8 @@
 		B542B62B19741949001D9699 /* help1 in Resources */ = {isa = PBXBuildFile; fileRef = B542B62A19741949001D9699 /* help1 */; };
 		B542B62D19741B55001D9699 /* help2.png in Resources */ = {isa = PBXBuildFile; fileRef = B542B62C19741B55001D9699 /* help2.png */; };
 		B542B62F19741C51001D9699 /* help3.png in Resources */ = {isa = PBXBuildFile; fileRef = B542B62E19741C51001D9699 /* help3.png */; };
+		B54CFE521A04CD3A00A23165 /* ROGameIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54CFE511A04CD3A00A23165 /* ROGameIndexViewController.m */; };
+		B54CFE541A04CEB000A23165 /* main_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54CFE531A04CEB000A23165 /* main_Storyboard.storyboard */; };
 		B57277B8197BED0B00B4E7EE /* qrcode_for_weixin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57277B7197BED0B00B4E7EE /* qrcode_for_weixin.jpg */; };
 		B58AC61719793C51006BE9EC /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58AC61119793C51006BE9EC /* libWeChatSDK.a */; };
 		B58AC61819793C51006BE9EC /* ShareEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B58AC61519793C51006BE9EC /* ShareEngine.m */; };
@@ -36,7 +38,6 @@
 		B58FE570197B3E5000D8CAE9 /* share in Resources */ = {isa = PBXBuildFile; fileRef = B58FE56F197B3E5000D8CAE9 /* share */; };
 		B590BD08196518AE009848D8 /* ROMyFund.m in Sources */ = {isa = PBXBuildFile; fileRef = B590BD07196518AE009848D8 /* ROMyFund.m */; };
 		B590BD0B19651B08009848D8 /* ROMyFundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B590BD0A19651B08009848D8 /* ROMyFundManager.m */; };
-		B59C9E0B196ADE5800E3B316 /* main_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59C9E0A196ADE5800E3B316 /* main_Storyboard.storyboard */; };
 		B59C9E0E196C208A00E3B316 /* ROFund.m in Sources */ = {isa = PBXBuildFile; fileRef = B59C9E0D196C208A00E3B316 /* ROFund.m */; };
 		B5A0520F1993038F00EF5713 /* gray_backgroud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5A0520E1993038F00EF5713 /* gray_backgroud.jpg */; };
 		B5A052111993149700EF5713 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A052101993149700EF5713 /* reset.png */; };
@@ -56,6 +57,11 @@
 		B5D6A6771967919B00079F39 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D6A6741967919B00079F39 /* Default-568h@2x.png */; };
 		B5D6A6781967919B00079F39 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D6A6751967919B00079F39 /* Default.png */; };
 		B5D6A6791967919B00079F39 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D6A6761967919B00079F39 /* Default@2x.png */; };
+		B5DBCFDC1A0506BA00A29ED5 /* ROGameRuleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DBCFDB1A0506BA00A29ED5 /* ROGameRuleView.xib */; };
+		B5DBCFDF1A05079400A29ED5 /* ROGameRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DBCFDE1A05079400A29ED5 /* ROGameRuleView.m */; };
+		B5DBCFE11A0510FB00A29ED5 /* ROGameIndexAllin.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DBCFE01A0510FB00A29ED5 /* ROGameIndexAllin.xib */; };
+		B5DBCFE31A05133700A29ED5 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DBCFE21A05133700A29ED5 /* coin.png */; };
+		B5DBCFE61A05149900A29ED5 /* ROGameIndexAllin.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DBCFE51A05149900A29ED5 /* ROGameIndexAllin.m */; };
 		B5DD2638196EADD900A953B0 /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DD2636196EADD900A953B0 /* RNFrostedSidebar.m */; };
 		B5DD263A196EB8AE00A953B0 /* ROSiderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DD2639196EB8AE00A953B0 /* ROSiderView.xib */; };
 		B5DD2641196F6B1200A953B0 /* ROSiderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DD2640196F6B1200A953B0 /* ROSiderView.m */; };
@@ -132,6 +138,9 @@
 		B542B62A19741949001D9699 /* help1 */ = {isa = PBXFileReference; lastKnownFileType = file; name = help1; path = Resources/help1; sourceTree = "<group>"; };
 		B542B62C19741B55001D9699 /* help2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help2.png; path = Resources/help2.png; sourceTree = "<group>"; };
 		B542B62E19741C51001D9699 /* help3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help3.png; path = Resources/help3.png; sourceTree = "<group>"; };
+		B54CFE501A04CD3A00A23165 /* ROGameIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROGameIndexViewController.h; sourceTree = "<group>"; };
+		B54CFE511A04CD3A00A23165 /* ROGameIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROGameIndexViewController.m; sourceTree = "<group>"; };
+		B54CFE531A04CEB000A23165 /* main_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main_Storyboard.storyboard; sourceTree = "<group>"; };
 		B57277B7197BED0B00B4E7EE /* qrcode_for_weixin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qrcode_for_weixin.jpg; path = Resources/qrcode_for_weixin.jpg; sourceTree = "<group>"; };
 		B58AC61119793C51006BE9EC /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		B58AC61219793C51006BE9EC /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
@@ -149,7 +158,6 @@
 		B590BD07196518AE009848D8 /* ROMyFund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROMyFund.m; sourceTree = "<group>"; };
 		B590BD0919651B08009848D8 /* ROMyFundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROMyFundManager.h; sourceTree = "<group>"; };
 		B590BD0A19651B08009848D8 /* ROMyFundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROMyFundManager.m; sourceTree = "<group>"; };
-		B59C9E0A196ADE5800E3B316 /* main_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main_Storyboard.storyboard; sourceTree = "<group>"; };
 		B59C9E0C196C208A00E3B316 /* ROFund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROFund.h; sourceTree = "<group>"; };
 		B59C9E0D196C208A00E3B316 /* ROFund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROFund.m; sourceTree = "<group>"; };
 		B5A0520E1993038F00EF5713 /* gray_backgroud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gray_backgroud.jpg; path = Resources/gray_backgroud.jpg; sourceTree = "<group>"; };
@@ -174,6 +182,13 @@
 		B5D6A6741967919B00079F39 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		B5D6A6751967919B00079F39 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		B5D6A6761967919B00079F39 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		B5DBCFDB1A0506BA00A29ED5 /* ROGameRuleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ROGameRuleView.xib; sourceTree = "<group>"; };
+		B5DBCFDD1A05079400A29ED5 /* ROGameRuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROGameRuleView.h; sourceTree = "<group>"; };
+		B5DBCFDE1A05079400A29ED5 /* ROGameRuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROGameRuleView.m; sourceTree = "<group>"; };
+		B5DBCFE01A0510FB00A29ED5 /* ROGameIndexAllin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ROGameIndexAllin.xib; sourceTree = "<group>"; };
+		B5DBCFE21A05133700A29ED5 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coin.png; path = Resources/coin.png; sourceTree = "<group>"; };
+		B5DBCFE41A05149900A29ED5 /* ROGameIndexAllin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROGameIndexAllin.h; sourceTree = "<group>"; };
+		B5DBCFE51A05149900A29ED5 /* ROGameIndexAllin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROGameIndexAllin.m; sourceTree = "<group>"; };
 		B5DD2636196EADD900A953B0 /* RNFrostedSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNFrostedSidebar.m; path = RNForstedSidebar/RNFrostedSidebar.m; sourceTree = SOURCE_ROOT; };
 		B5DD2637196EADD900A953B0 /* RNFrostedSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNFrostedSidebar.h; path = RNForstedSidebar/RNFrostedSidebar.h; sourceTree = SOURCE_ROOT; };
 		B5DD2639196EB8AE00A953B0 /* ROSiderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ROSiderView.xib; sourceTree = "<group>"; };
@@ -287,6 +302,7 @@
 		B5309384196786DC000FA4E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5DBCFE21A05133700A29ED5 /* coin.png */,
 				B5CB40F319A4CDD400A774E6 /* setmyfundcancel.png */,
 				B5CB40F419A4CDD400A774E6 /* setmyfundok.png */,
 				B5CB40E719A23C1500A774E6 /* newnv.png */,
@@ -382,6 +398,12 @@
 				B5CB40EE19A479FE00A774E6 /* ROSetMyFundView.xib */,
 				B5CB40F019A47AF300A774E6 /* ROSetMyFundView.h */,
 				B5CB40F119A47AF300A774E6 /* ROSetMyFundView.m */,
+				B5DBCFDB1A0506BA00A29ED5 /* ROGameRuleView.xib */,
+				B5DBCFDD1A05079400A29ED5 /* ROGameRuleView.h */,
+				B5DBCFDE1A05079400A29ED5 /* ROGameRuleView.m */,
+				B5DBCFE01A0510FB00A29ED5 /* ROGameIndexAllin.xib */,
+				B5DBCFE41A05149900A29ED5 /* ROGameIndexAllin.h */,
+				B5DBCFE51A05149900A29ED5 /* ROGameIndexAllin.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -493,7 +515,7 @@
 				D0C7E4811847847D00A43EDB /* ROConstants.h */,
 				D0D0EA741848ED49005E0F6E /* ROFundTablePriceCell.h */,
 				D0D0EA751848ED4A005E0F6E /* ROFundTablePriceCell.m */,
-				B59C9E0A196ADE5800E3B316 /* main_Storyboard.storyboard */,
+				B54CFE531A04CEB000A23165 /* main_Storyboard.storyboard */,
 				D0809D3918537D8000C79199 /* ROSetFundControlCell.h */,
 				D0809D3A18537D8000C79199 /* ROSetFundControlCell.m */,
 				B590BD0919651B08009848D8 /* ROMyFundManager.h */,
@@ -502,6 +524,8 @@
 				B5A0521B19933FFF00EF5713 /* ROFirstVisitViewController.m */,
 				D0B745C91841FBC6003AB779 /* ROMyFundViewController.h */,
 				D0B745CA1841FBC6003AB779 /* ROMyFundViewController.m */,
+				B54CFE501A04CD3A00A23165 /* ROGameIndexViewController.h */,
+				B54CFE511A04CD3A00A23165 /* ROGameIndexViewController.m */,
 				D0B745981841FB06003AB779 /* Supporting Files */,
 				B5D6A67219678A5100079F39 /* Images.xcassets */,
 			);
@@ -641,12 +665,14 @@
 				B542B6261973F3DE001D9699 /* about.png in Resources */,
 				B5A0520F1993038F00EF5713 /* gray_backgroud.jpg in Resources */,
 				B5E7BD971993AF6C00B68FA4 /* start.png in Resources */,
+				B5DBCFE11A0510FB00A29ED5 /* ROGameIndexAllin.xib in Resources */,
 				B58AC61F19793E70006BE9EC /* UMS_wechat_timeline_icon.png in Resources */,
 				B58AC61E19793E70006BE9EC /* UMS_wechat_icon@2x.png in Resources */,
 				B5CB40F519A4CDD400A774E6 /* setmyfundcancel.png in Resources */,
 				B53093911967872D000FA4E4 /* Icon@2x.png in Resources */,
 				B5DD263A196EB8AE00A953B0 /* ROSiderView.xib in Resources */,
 				B542B6241973F352001D9699 /* star in Resources */,
+				B5DBCFDC1A0506BA00A29ED5 /* ROGameRuleView.xib in Resources */,
 				B530938F1967872D000FA4E4 /* Icon-Small@2x.png in Resources */,
 				B5CB40F619A4CDD400A774E6 /* setmyfundok.png in Resources */,
 				B5E7BD951993A7B500B68FA4 /* preview_1.png in Resources */,
@@ -658,6 +684,7 @@
 				D0B7459C1841FB06003AB779 /* InfoPlist.strings in Resources */,
 				B53093921967872D000FA4E4 /* iTunesArtwork.png in Resources */,
 				B5CB40E819A23C1500A774E6 /* newnv.png in Resources */,
+				B54CFE541A04CEB000A23165 /* main_Storyboard.storyboard in Resources */,
 				B58AC62019793E70006BE9EC /* UMS_wechat_timeline_icon@2x.png in Resources */,
 				B5CB40ED19A3820800A774E6 /* ROMyFundTitleView.xib in Resources */,
 				B542B6221973B9B8001D9699 /* zhinan.png in Resources */,
@@ -669,10 +696,10 @@
 				B530938C1967872D000FA4E4 /* Icon-72.png in Resources */,
 				B53093901967872D000FA4E4 /* Icon.png in Resources */,
 				B5E7BD941993A7B500B68FA4 /* preview_2.png in Resources */,
+				B5DBCFE31A05133700A29ED5 /* coin.png in Resources */,
 				B542B61D1973AC9D001D9699 /* ROSettingView.xib in Resources */,
 				B5CB40E619A22D3700A774E6 /* bg in Resources */,
 				D056D9631949D37300E9AE55 /* LICENSE in Resources */,
-				B59C9E0B196ADE5800E3B316 /* main_Storyboard.storyboard in Resources */,
 				B58AC61D19793E70006BE9EC /* UMS_wechat_icon.png in Resources */,
 				B57277B8197BED0B00B4E7EE /* qrcode_for_weixin.jpg in Resources */,
 				B5E7BD931993A7B500B68FA4 /* preview_3.png in Resources */,
@@ -706,6 +733,7 @@
 				D0B745A21841FB06003AB779 /* ROAppDelegate.m in Sources */,
 				B5CB40F219A47AF300A774E6 /* ROSetMyFundView.m in Sources */,
 				D056D9651949D37300E9AE55 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				B5DBCFDF1A05079400A29ED5 /* ROGameRuleView.m in Sources */,
 				B530938319672ABE000FA4E4 /* UIDevice+IdentifierAddition.m in Sources */,
 				B530938219672ABE000FA4E4 /* NSString+MD5Addition.m in Sources */,
 				B590BD08196518AE009848D8 /* ROMyFund.m in Sources */,
@@ -719,6 +747,7 @@
 				D056D9601949D37300E9AE55 /* AFURLRequestSerialization.m in Sources */,
 				D056D9621949D37300E9AE55 /* AFURLSessionManager.m in Sources */,
 				B5DD2638196EADD900A953B0 /* RNFrostedSidebar.m in Sources */,
+				B54CFE521A04CD3A00A23165 /* ROGameIndexViewController.m in Sources */,
 				B58FE56E1979E94E00D8CAE9 /* ROShareView.m in Sources */,
 				D0D0EA761848ED4A005E0F6E /* ROFundTablePriceCell.m in Sources */,
 				D056D95B1949D37300E9AE55 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -727,6 +756,7 @@
 				D056D9681949D37300E9AE55 /* UIButton+AFNetworking.m in Sources */,
 				B5DD2641196F6B1200A953B0 /* ROSiderView.m in Sources */,
 				D056D9611949D37300E9AE55 /* AFURLResponseSerialization.m in Sources */,
+				B5DBCFE61A05149900A29ED5 /* ROGameIndexAllin.m in Sources */,
 				B5CB40EB19A381F500A774E6 /* ROMyFundTitleView.m in Sources */,
 				D0B745CB1841FBC6003AB779 /* ROMyFundViewController.m in Sources */,
 				D056D96B1949D37300E9AE55 /* UIWebView+AFNetworking.m in Sources */,
@@ -848,6 +878,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -855,6 +886,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "MyFund/MyFund-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Analytics_iOS_SDK_3.1.2/UMAnalytics_Sdk_3.1.2",
@@ -864,6 +896,8 @@
 				);
 				PRODUCT_NAME = "宝宝管家";
 				PROVISIONING_PROFILE = "19C4A4E2-D102-4206-B393-22A812340E6A";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyFund/宝宝管家-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -874,6 +908,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -881,6 +916,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "MyFund/MyFund-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Analytics_iOS_SDK_3.1.2/UMAnalytics_Sdk_3.1.2",
@@ -890,6 +926,7 @@
 				);
 				PRODUCT_NAME = "宝宝管家";
 				PROVISIONING_PROFILE = "C5FA6455-335A-4E55-8C20-7460B40454FF";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyFund/宝宝管家-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
