@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52DED2D1A06217B004CE138 /* earncoin.png in Resources */ = {isa = PBXBuildFile; fileRef = B52DED2C1A06217B004CE138 /* earncoin.png */; };
+		B52DED301A062365004CE138 /* ROGameIndexEarnCoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DED2F1A062365004CE138 /* ROGameIndexEarnCoinViewController.m */; };
+		B52DED351A063192004CE138 /* DomobOfferWallBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B52DED331A063192004CE138 /* DomobOfferWallBundle.bundle */; };
+		B52DED361A063192004CE138 /* libDMOfferWallSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED341A063192004CE138 /* libDMOfferWallSDK.a */; };
+		B52DED381A0631DD004CE138 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED371A0631DD004CE138 /* Security.framework */; };
+		B52DED3A1A0631E9004CE138 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED391A0631E9004CE138 /* libsqlite3.dylib */; };
+		B52DED3C1A0631F5004CE138 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED3B1A0631F5004CE138 /* CoreMedia.framework */; };
+		B52DED3E1A0631FE004CE138 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED3D1A0631FE004CE138 /* AVFoundation.framework */; };
+		B52DED401A06320F004CE138 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED3F1A06320F004CE138 /* StoreKit.framework */; };
+		B52DED421A06321A004CE138 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED411A06321A004CE138 /* SystemConfiguration.framework */; };
+		B52DED441A063225004CE138 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED431A063225004CE138 /* CoreLocation.framework */; };
+		B52DED461A06322F004CE138 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52DED451A06322F004CE138 /* QuartzCore.framework */; };
+		B52DED491A063316004CE138 /* RODUOMENGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DED481A063316004CE138 /* RODUOMENGViewController.m */; };
+		B52DED4D1A064B35004CE138 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DED4C1A064B35004CE138 /* Toast+UIView.m */; };
+		B52DED4F1A066115004CE138 /* rise.png in Resources */ = {isa = PBXBuildFile; fileRef = B52DED4E1A066115004CE138 /* rise.png */; };
+		B52DED511A0661DA004CE138 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = B52DED501A0661DA004CE138 /* down.png */; };
+		B52DED531A066417004CE138 /* vsflag.png in Resources */ = {isa = PBXBuildFile; fileRef = B52DED521A066417004CE138 /* vsflag.png */; };
+		B52DED561A0667C8004CE138 /* guessdown.png in Resources */ = {isa = PBXBuildFile; fileRef = B52DED541A0667C8004CE138 /* guessdown.png */; };
+		B52DED571A0667C8004CE138 /* guessrise.png in Resources */ = {isa = PBXBuildFile; fileRef = B52DED551A0667C8004CE138 /* guessrise.png */; };
+		B52DED591A066B74004CE138 /* rules.png in Resources */ = {isa = PBXBuildFile; fileRef = B52DED581A066B74004CE138 /* rules.png */; };
 		B530938219672ABE000FA4E4 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B530937F19672ABE000FA4E4 /* NSString+MD5Addition.m */; };
 		B530938319672ABE000FA4E4 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B530938119672ABE000FA4E4 /* UIDevice+IdentifierAddition.m */; };
 		B530938C1967872D000FA4E4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B53093851967872D000FA4E4 /* Icon-72.png */; };
@@ -116,6 +136,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B52DED2C1A06217B004CE138 /* earncoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earncoin.png; path = Resources/earncoin.png; sourceTree = "<group>"; };
+		B52DED2E1A062365004CE138 /* ROGameIndexEarnCoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROGameIndexEarnCoinViewController.h; sourceTree = "<group>"; };
+		B52DED2F1A062365004CE138 /* ROGameIndexEarnCoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROGameIndexEarnCoinViewController.m; sourceTree = "<group>"; };
+		B52DED321A063192004CE138 /* DMOfferWallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMOfferWallManager.h; path = DMOfferWallSDK/DMOfferWallManager.h; sourceTree = SOURCE_ROOT; };
+		B52DED331A063192004CE138 /* DomobOfferWallBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DomobOfferWallBundle.bundle; path = DMOfferWallSDK/DomobOfferWallBundle.bundle; sourceTree = SOURCE_ROOT; };
+		B52DED341A063192004CE138 /* libDMOfferWallSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDMOfferWallSDK.a; path = DMOfferWallSDK/libDMOfferWallSDK.a; sourceTree = SOURCE_ROOT; };
+		B52DED371A0631DD004CE138 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B52DED391A0631E9004CE138 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B52DED3B1A0631F5004CE138 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B52DED3D1A0631FE004CE138 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B52DED3F1A06320F004CE138 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B52DED411A06321A004CE138 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B52DED431A063225004CE138 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B52DED451A06322F004CE138 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B52DED471A063316004CE138 /* RODUOMENGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RODUOMENGViewController.h; sourceTree = "<group>"; };
+		B52DED481A063316004CE138 /* RODUOMENGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RODUOMENGViewController.m; sourceTree = "<group>"; };
+		B52DED4B1A064B35004CE138 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Toast+UIView.h"; path = "Toast/Toast+UIView.h"; sourceTree = SOURCE_ROOT; };
+		B52DED4C1A064B35004CE138 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Toast+UIView.m"; path = "Toast/Toast+UIView.m"; sourceTree = SOURCE_ROOT; };
+		B52DED4E1A066115004CE138 /* rise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rise.png; path = Resources/rise.png; sourceTree = "<group>"; };
+		B52DED501A0661DA004CE138 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = Resources/down.png; sourceTree = "<group>"; };
+		B52DED521A066417004CE138 /* vsflag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vsflag.png; path = Resources/vsflag.png; sourceTree = "<group>"; };
+		B52DED541A0667C8004CE138 /* guessdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guessdown.png; path = Resources/guessdown.png; sourceTree = "<group>"; };
+		B52DED551A0667C8004CE138 /* guessrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guessrise.png; path = Resources/guessrise.png; sourceTree = "<group>"; };
+		B52DED581A066B74004CE138 /* rules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rules.png; path = Resources/rules.png; sourceTree = "<group>"; };
 		B530937E19672ABE000FA4E4 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
 		B530937F19672ABE000FA4E4 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		B530938019672ABE000FA4E4 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
@@ -265,6 +309,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52DED461A06322F004CE138 /* QuartzCore.framework in Frameworks */,
+				B52DED441A063225004CE138 /* CoreLocation.framework in Frameworks */,
+				B52DED361A063192004CE138 /* libDMOfferWallSDK.a in Frameworks */,
+				B52DED421A06321A004CE138 /* SystemConfiguration.framework in Frameworks */,
+				B52DED401A06320F004CE138 /* StoreKit.framework in Frameworks */,
+				B52DED3E1A0631FE004CE138 /* AVFoundation.framework in Frameworks */,
+				B52DED3C1A0631F5004CE138 /* CoreMedia.framework in Frameworks */,
+				B52DED3A1A0631E9004CE138 /* libsqlite3.dylib in Frameworks */,
+				B52DED381A0631DD004CE138 /* Security.framework in Frameworks */,
 				B5CB40F819A6D80E00A774E6 /* AdSupport.framework in Frameworks */,
 				B5ADCE02197531F7003A410E /* libz.dylib in Frameworks */,
 				D0B745941841FB06003AB779 /* CoreGraphics.framework in Frameworks */,
@@ -288,6 +341,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B52DED311A063159004CE138 /* DMOfferWallSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B52DED321A063192004CE138 /* DMOfferWallManager.h */,
+				B52DED331A063192004CE138 /* DomobOfferWallBundle.bundle */,
+				B52DED341A063192004CE138 /* libDMOfferWallSDK.a */,
+			);
+			name = DMOfferWallSDK;
+			sourceTree = "<group>";
+		};
+		B52DED4A1A064B22004CE138 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				B52DED4B1A064B35004CE138 /* Toast+UIView.h */,
+				B52DED4C1A064B35004CE138 /* Toast+UIView.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
 		B530937D19672ABE000FA4E4 /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +374,13 @@
 		B5309384196786DC000FA4E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B52DED581A066B74004CE138 /* rules.png */,
+				B52DED541A0667C8004CE138 /* guessdown.png */,
+				B52DED551A0667C8004CE138 /* guessrise.png */,
+				B52DED521A066417004CE138 /* vsflag.png */,
+				B52DED501A0661DA004CE138 /* down.png */,
+				B52DED4E1A066115004CE138 /* rise.png */,
+				B52DED2C1A06217B004CE138 /* earncoin.png */,
 				B5DBCFE21A05133700A29ED5 /* coin.png */,
 				B5CB40F319A4CDD400A774E6 /* setmyfundcancel.png */,
 				B5CB40F419A4CDD400A774E6 /* setmyfundok.png */,
@@ -490,6 +569,14 @@
 		D0B745901841FB06003AB779 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B52DED451A06322F004CE138 /* QuartzCore.framework */,
+				B52DED431A063225004CE138 /* CoreLocation.framework */,
+				B52DED411A06321A004CE138 /* SystemConfiguration.framework */,
+				B52DED3F1A06320F004CE138 /* StoreKit.framework */,
+				B52DED3D1A0631FE004CE138 /* AVFoundation.framework */,
+				B52DED3B1A0631F5004CE138 /* CoreMedia.framework */,
+				B52DED391A0631E9004CE138 /* libsqlite3.dylib */,
+				B52DED371A0631DD004CE138 /* Security.framework */,
 				B5CB40F719A6D80E00A774E6 /* AdSupport.framework */,
 				B5ADCE01197531F7003A410E /* libz.dylib */,
 				D0B745911841FB06003AB779 /* Foundation.framework */,
@@ -503,6 +590,8 @@
 		D0B745971841FB06003AB779 /* MyFund */ = {
 			isa = PBXGroup;
 			children = (
+				B52DED4A1A064B22004CE138 /* Toast */,
+				B52DED311A063159004CE138 /* DMOfferWallSDK */,
 				B58AC60F19793C51006BE9EC /* ShareEngine */,
 				B5ADCDFD19752D5C003A410E /* Analytics */,
 				B5DD263B196EB91F00A953B0 /* View */,
@@ -526,8 +615,12 @@
 				D0B745CA1841FBC6003AB779 /* ROMyFundViewController.m */,
 				B54CFE501A04CD3A00A23165 /* ROGameIndexViewController.h */,
 				B54CFE511A04CD3A00A23165 /* ROGameIndexViewController.m */,
+				B52DED2E1A062365004CE138 /* ROGameIndexEarnCoinViewController.h */,
+				B52DED2F1A062365004CE138 /* ROGameIndexEarnCoinViewController.m */,
 				D0B745981841FB06003AB779 /* Supporting Files */,
 				B5D6A67219678A5100079F39 /* Images.xcassets */,
+				B52DED471A063316004CE138 /* RODUOMENGViewController.h */,
+				B52DED481A063316004CE138 /* RODUOMENGViewController.m */,
 			);
 			path = MyFund;
 			sourceTree = "<group>";
@@ -658,15 +751,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52DED351A063192004CE138 /* DomobOfferWallBundle.bundle in Resources */,
 				B5D6A6791967919B00079F39 /* Default@2x.png in Resources */,
 				B5DD2645196F76B400A953B0 /* help.png in Resources */,
+				B52DED591A066B74004CE138 /* rules.png in Resources */,
 				B5DD2647196F7E3600A953B0 /* more.png in Resources */,
 				D056D9641949D37300E9AE55 /* README.md in Resources */,
 				B542B6261973F3DE001D9699 /* about.png in Resources */,
+				B52DED531A066417004CE138 /* vsflag.png in Resources */,
 				B5A0520F1993038F00EF5713 /* gray_backgroud.jpg in Resources */,
+				B52DED4F1A066115004CE138 /* rise.png in Resources */,
 				B5E7BD971993AF6C00B68FA4 /* start.png in Resources */,
 				B5DBCFE11A0510FB00A29ED5 /* ROGameIndexAllin.xib in Resources */,
+				B52DED561A0667C8004CE138 /* guessdown.png in Resources */,
 				B58AC61F19793E70006BE9EC /* UMS_wechat_timeline_icon.png in Resources */,
+				B52DED511A0661DA004CE138 /* down.png in Resources */,
 				B58AC61E19793E70006BE9EC /* UMS_wechat_icon@2x.png in Resources */,
 				B5CB40F519A4CDD400A774E6 /* setmyfundcancel.png in Resources */,
 				B53093911967872D000FA4E4 /* Icon@2x.png in Resources */,
@@ -693,12 +792,14 @@
 				B542B62B19741949001D9699 /* help1 in Resources */,
 				B5CB40EF19A479FE00A774E6 /* ROSetMyFundView.xib in Resources */,
 				B5D6A67319678A5100079F39 /* Images.xcassets in Resources */,
+				B52DED571A0667C8004CE138 /* guessrise.png in Resources */,
 				B530938C1967872D000FA4E4 /* Icon-72.png in Resources */,
 				B53093901967872D000FA4E4 /* Icon.png in Resources */,
 				B5E7BD941993A7B500B68FA4 /* preview_2.png in Resources */,
 				B5DBCFE31A05133700A29ED5 /* coin.png in Resources */,
 				B542B61D1973AC9D001D9699 /* ROSettingView.xib in Resources */,
 				B5CB40E619A22D3700A774E6 /* bg in Resources */,
+				B52DED2D1A06217B004CE138 /* earncoin.png in Resources */,
 				D056D9631949D37300E9AE55 /* LICENSE in Resources */,
 				B58AC61D19793E70006BE9EC /* UMS_wechat_icon.png in Resources */,
 				B57277B8197BED0B00B4E7EE /* qrcode_for_weixin.jpg in Resources */,
@@ -729,10 +830,13 @@
 				B542B6201973ACB5001D9699 /* ROSettingView.m in Sources */,
 				D056D95D1949D37300E9AE55 /* AFNetworkReachabilityManager.m in Sources */,
 				B542B6291973F5C1001D9699 /* ROGuideView.m in Sources */,
+				B52DED4D1A064B35004CE138 /* Toast+UIView.m in Sources */,
 				B5A0521C19933FFF00EF5713 /* ROFirstVisitViewController.m in Sources */,
 				D0B745A21841FB06003AB779 /* ROAppDelegate.m in Sources */,
 				B5CB40F219A47AF300A774E6 /* ROSetMyFundView.m in Sources */,
 				D056D9651949D37300E9AE55 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				B52DED491A063316004CE138 /* RODUOMENGViewController.m in Sources */,
+				B52DED301A062365004CE138 /* ROGameIndexEarnCoinViewController.m in Sources */,
 				B5DBCFDF1A05079400A29ED5 /* ROGameRuleView.m in Sources */,
 				B530938319672ABE000FA4E4 /* UIDevice+IdentifierAddition.m in Sources */,
 				B530938219672ABE000FA4E4 /* NSString+MD5Addition.m in Sources */,
@@ -893,7 +997,9 @@
 					"$(PROJECT_DIR)/MyFund/UMSocial_Sdk_4.0",
 					"$(PROJECT_DIR)/MyFund",
 					"$(PROJECT_DIR)/ShareEngine/SDKExport",
+					"$(PROJECT_DIR)/DMOfferWallSDK",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "宝宝管家";
 				PROVISIONING_PROFILE = "19C4A4E2-D102-4206-B393-22A812340E6A";
 				SWIFT_OBJC_BRIDGING_HEADER = "MyFund/宝宝管家-Bridging-Header.h";
@@ -923,7 +1029,9 @@
 					"$(PROJECT_DIR)/MyFund/UMSocial_Sdk_4.0",
 					"$(PROJECT_DIR)/MyFund",
 					"$(PROJECT_DIR)/ShareEngine/SDKExport",
+					"$(PROJECT_DIR)/DMOfferWallSDK",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "宝宝管家";
 				PROVISIONING_PROFILE = "C5FA6455-335A-4E55-8C20-7460B40454FF";
 				SWIFT_OBJC_BRIDGING_HEADER = "MyFund/宝宝管家-Bridging-Header.h";
