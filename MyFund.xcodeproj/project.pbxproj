@@ -64,6 +64,8 @@
 		B5A0521C19933FFF00EF5713 /* ROFirstVisitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0521B19933FFF00EF5713 /* ROFirstVisitViewController.m */; };
 		B5ADCE0019752D81003A410E /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ADCDFE19752D81003A410E /* libMobClickLibrary.a */; };
 		B5ADCE02197531F7003A410E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ADCE01197531F7003A410E /* libz.dylib */; };
+		B5C21F581A07B6370089EEAF /* gameindex.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C21F571A07B6370089EEAF /* gameindex.png */; };
+		B5C21F5A1A07BF5B0089EEAF /* iguess.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C21F591A07BF5B0089EEAF /* iguess.png */; };
 		B5CB40E619A22D3700A774E6 /* bg in Resources */ = {isa = PBXBuildFile; fileRef = B5CB40E519A22D3700A774E6 /* bg */; };
 		B5CB40E819A23C1500A774E6 /* newnv.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CB40E719A23C1500A774E6 /* newnv.png */; };
 		B5CB40EB19A381F500A774E6 /* ROMyFundTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB40EA19A381F500A774E6 /* ROMyFundTitleView.m */; };
@@ -211,6 +213,8 @@
 		B5ADCDFE19752D81003A410E /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobClickLibrary.a; path = Analytics_iOS_SDK_3.1.2/UMAnalytics_Sdk_3.1.2/libMobClickLibrary.a; sourceTree = SOURCE_ROOT; };
 		B5ADCDFF19752D81003A410E /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobClick.h; path = Analytics_iOS_SDK_3.1.2/UMAnalytics_Sdk_3.1.2/MobClick.h; sourceTree = SOURCE_ROOT; };
 		B5ADCE01197531F7003A410E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B5C21F571A07B6370089EEAF /* gameindex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameindex.png; path = Resources/gameindex.png; sourceTree = "<group>"; };
+		B5C21F591A07BF5B0089EEAF /* iguess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iguess.png; path = Resources/iguess.png; sourceTree = "<group>"; };
 		B5CB40E519A22D3700A774E6 /* bg */ = {isa = PBXFileReference; lastKnownFileType = file; name = bg; path = Resources/bg; sourceTree = "<group>"; };
 		B5CB40E719A23C1500A774E6 /* newnv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newnv.png; path = Resources/newnv.png; sourceTree = "<group>"; };
 		B5CB40E919A381F500A774E6 /* ROMyFundTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROMyFundTitleView.h; sourceTree = "<group>"; };
@@ -374,6 +378,8 @@
 		B5309384196786DC000FA4E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5C21F591A07BF5B0089EEAF /* iguess.png */,
+				B5C21F571A07B6370089EEAF /* gameindex.png */,
 				B52DED581A066B74004CE138 /* rules.png */,
 				B52DED541A0667C8004CE138 /* guessdown.png */,
 				B52DED551A0667C8004CE138 /* guessrise.png */,
@@ -778,6 +784,7 @@
 				B542B62D19741B55001D9699 /* help2.png in Resources */,
 				B58FE570197B3E5000D8CAE9 /* share in Resources */,
 				B542B62F19741C51001D9699 /* help3.png in Resources */,
+				B5C21F581A07B6370089EEAF /* gameindex.png in Resources */,
 				B5D6A6781967919B00079F39 /* Default.png in Resources */,
 				B5D6A6771967919B00079F39 /* Default-568h@2x.png in Resources */,
 				D0B7459C1841FB06003AB779 /* InfoPlist.strings in Resources */,
@@ -803,6 +810,7 @@
 				D056D9631949D37300E9AE55 /* LICENSE in Resources */,
 				B58AC61D19793E70006BE9EC /* UMS_wechat_icon.png in Resources */,
 				B57277B8197BED0B00B4E7EE /* qrcode_for_weixin.jpg in Resources */,
+				B5C21F5A1A07BF5B0089EEAF /* iguess.png in Resources */,
 				B5E7BD931993A7B500B68FA4 /* preview_3.png in Resources */,
 				B530938E1967872D000FA4E4 /* Icon-Small.png in Resources */,
 			);
